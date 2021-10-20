@@ -1,0 +1,15 @@
+.nav-bg{
+    background-color: rgb(83, 206, 206);
+    border-bottom: 2px solid rgb(14, 8, 8);
+}
+
+.text-color{
+    color:white !important;
+}
+.text-color:hover{
+    color:rgb(13, 22, 32) !important;
+}
+
+.title{
+    font-size: 25px !important;
+}

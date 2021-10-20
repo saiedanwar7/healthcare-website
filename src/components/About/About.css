@@ -1,0 +1,23 @@
+.about-img{
+    width: 700px;
+    height: 450px;
+}
+
+.btn-about{
+    border: 2px solid rgb(177, 170, 170);
+    border-radius: 11px;
+     
+}
+
+.btn-about:hover{
+   background-color:#128AE6;
+   
+}
+
+/* .about-section{
+    border:1px solid rgb(11, 103, 209);
+} */
+
+.hr-color{
+  border: 2px solid rgb(6, 92, 190);
+}
