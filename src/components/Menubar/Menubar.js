@@ -18,15 +18,19 @@ const Menubar = () => {
 
           <Nav className="me-auto">
                 <Nav.Link className="text-color mx-2 fw-bold" as={Link} to="/doctors">Doctors</Nav.Link>
-                 <Nav.Link className="text-color fw-bold" as={Link} to="/About">About</Nav.Link>
+                 <Nav.Link className="text-color  mx-2 fw-bold" as={Link} to="/About">About</Nav.Link>
           </Nav>
 
             <Nav>
                    {
                            
-                    user.email ? <div className="d-flex align-items-center"><span className="me-3 text-decoration-none text-color fw-bold">{user.displayName}</span><Nav.Link  className="text-decoration-none text-color fw-bold me-4 nav-link" onClick={logOut}>Logout</Nav.Link ></div>
+                    user.email ? <div className="d-flex align-items-center"><span className="me-3 text-decoration-none text-color fw-bold">{user.displayName}</span><button className="btn log-btn">
+                      <Nav.Link  className="text-decoration-none text-color fw-bold me-4 nav-link" onClick={logOut}>Logout</Nav.Link >
+                      </button></div>
                      :
-                     <Link className="text-decoration-none text-color fw-bold me-4 text-color fw-bold nav-link " to="/login">Login</Link>
+                   
+                       <Link className="text-decoration-none text-color fw-bold me-4 text-color fw-bold nav-link " to="/login"> <button className="btn log-btn fw-bold px-3">Login</button></Link>
+                    
                  }
             </Nav>
   </Navbar.Collapse>

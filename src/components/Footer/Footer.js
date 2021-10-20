@@ -15,11 +15,11 @@ const Footer = () => {
                     </div>
                 </Col>
                 
-                <Col className="col-lg-4 col-md-4 d-flex justify-content-center">
+                <Col className="col-lg-4 col-md-4  d-flex justify-content-center">
                    <div className="text-start">
                    <h4 className="mb-2 fw-bold">CONTACT INFO</h4>
                       <div>
-                      <p>23/2, Khilji Road, Block-B,
+                      <p> Khilji Road, Block-B,
                           Shyamoli, Dhaka-1207</p>
                       <p>Mail - info@hdclbd.com</p>
                        <h5>Call - 10662</h5>
@@ -27,7 +27,7 @@ const Footer = () => {
                    </div>
                 </Col>
         
-                <Col className="col-lg-3 col-md-3 d-flex justify-content-center">
+                <Col className="col-lg-3 col-md-3  d-flex justify-content-center">
                    <div className="text-start">
                     <h4 className="mb-2 fw-bold">NAVIGATION</h4>
                     <ul className="list-style">

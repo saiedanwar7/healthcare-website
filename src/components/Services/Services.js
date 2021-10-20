@@ -56,7 +56,7 @@ const Services = () => {
     <Container className="mt-2">
     <h2 className="text-black fw-bold text-center mt-5 mb-5">Our Services</h2>
     <hr />
-         <Row xs={1} md={3} className="g-4">
+         <Row xs={1} md={2} lg={3} className="g-4">
               {
                    services.map(service => <Col key={service.id}>
                        <Card className="h-100 course-card">

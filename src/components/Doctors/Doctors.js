@@ -17,7 +17,7 @@ const Doctors = () => {
               <h1 className="text-center">OUR DOCTOR'S</h1>
               <h2 className="text-center">All the Providers You Need</h2>
               <hr />
-              <Row xs={1} md={3} className="4">
+              <Row xs={1} lg={3} md={2} className="4">
                    {
                 
                     doctors.map(doctor => <Col key={doctor._Id}>

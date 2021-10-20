@@ -34,22 +34,24 @@ const Login = () => {
                      <Form.Control onBlur={handleEmailChange} type="email" placeholder="Enter email" required />         
                   </Form.Group>
 
-  <Form.Group className="mb-3" controlId="formBasicPassword">
-    <Form.Label>Password</Form.Label>
-    <Form.Control onBlur={handlePasswordChange}  type="password" placeholder="Password" required/>
-  </Form.Group>
+                <Form.Group className="mb-3" controlId="formBasicPassword">
+                    <Form.Label>Password</Form.Label>
+                    <Form.Control onBlur={handlePasswordChange}  type="password" placeholder="Password" required/>
+                </Form.Group>
 
-   <p className="text-start text-danger">{error}</p> 
+                <p className="text-start text-danger">{error}</p> 
      
 
                  <Button className=" btn btn-info fw-bold w-100"  type="submit">
                          Login
-               </Button>
+                  </Button>
 
                <div className="text-center mt-2">
-             <Link onClick={handleError}  to="/register">new user ?</Link> 
+               <Link onClick={handleError}  to="/register">new user ?</Link> 
                 </div>
-</Form>
+
+
+           </Form>
              <div className="login-from mx-auto mt-3">
                 <p className="text-center">OR</p>
                 <button onClick={handleGoogleLogin} className="btn fw-bold go-btn w-100 ">Continue with google</button>
