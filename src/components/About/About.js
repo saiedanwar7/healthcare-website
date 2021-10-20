@@ -7,8 +7,10 @@ import about from '../../images/about.png'
 const About = () => {
     return (
         <div className="about-section">
-     
-            <Row>     
+          <h2 className="mb-4 fw-bold text-center">HEALTH CARE</h2>
+          <hr />
+            <Row> 
+               
                 <Col className="col-lg-7 col-md-12 col-12 d-flex">
                     <img className="about-img" src={about} alt="" />
                    
@@ -16,7 +18,7 @@ const About = () => {
                 
                 <Col className="col-lg-5 col-md-12 col-12">
                     <div className="mt-5 ms-3 me-2">
-                        <h2 className="mb-4 fw-bold text-start">HEALTH CARE</h2>
+                       
 
                         <p className="">Our Mission is to provide excellent health care services to all of our clients with dedication to meet their expectation.
 
@@ -28,7 +30,7 @@ const About = () => {
                     
                 </Col>  
             
-                <hr className="hr-color" />
+                {/* <hr className="hr-color" /> */}
             </Row>
  
     </div>

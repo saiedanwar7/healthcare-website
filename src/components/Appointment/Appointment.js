@@ -4,8 +4,8 @@ import './Appointment.css'
 
 const Appointment = () => {
     return (
-        <div className="mt-5">
-     
+        <div className="mt-5 mb-5">
+            <h2 className="text-center fw-bold text-dark mb-4">Find Our Doctor's</h2>
             <Row>     
                 <Col className="col-lg-4 col-md-12 col-12 section-1 text-center ">
                   <div className="overlay1">

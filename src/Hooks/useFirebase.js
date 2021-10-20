@@ -138,7 +138,6 @@ const useFirebase = () =>{
 
 
   //------------- User Login -------------
-  // user er jodi aage account thke tahole take login korte dibe na hole Error dibe
      const handleLogin = e =>{
       e.preventDefault();
         signInWithEmailAndPassword(auth, email, password)

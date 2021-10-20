@@ -35,14 +35,8 @@
         "name": "4D ULTRASONOGRAPHY",
         "description": "4D scans show moving 3D images of your baby, with time being the fourth dimension. ... With 3D and 4D scans, you see your baby's skin rather than her insides. You may see the shape of your baby's mouth and nose, or be able to spot her yawning or sticking her tongue out.",
         "img": "https://i.ibb.co/DKDnX2r/6.jpg"
-    },
-
-    {
-        "id": "S7",
-        "name": "EECP/ECP",
-        "description": "EECP stands for Enhanced external counter pulsation. It improves anginal symptoms and exercise tolerance, and reduces nitroglycerin use in patients with chronic, stable angina. EECP has also been shown to be safe and beneficial in patients with symptomatic stable congestive heart failure.",
-        "img": "https://i.ibb.co/GdsyzQR/7.jpg"
     }
+
  
 
 ]
