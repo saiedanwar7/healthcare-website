@@ -5,13 +5,9 @@
 }
 
 
-.btn-primary {
-    color: #fff;
-    background-color: #813AFE !important;
-    border-color: #813AFE !important;
-
+.go-btn{
+    border: 2px solid rgb(21, 42, 43);
 }
-
-.reset{
-    color:black;
+.go-btn:hover{
+    background-color: #31D2F2;
 }

@@ -24,7 +24,7 @@ const Login = () => {
     return (
      <>
         <Container>
-            <h1 className="shadow-sm text-success mt-5 p-3 text-center rounded"> Please Login</h1>
+            <h1 className="shadow-sm text-dark fw-bold mt-5 p-3 text-center rounded"> Please Login</h1>
             <Row className="mt-5">
                 <Col lg={5} md={6} sm={12} className="p-5 m-auto shadow-sm rounded-lg">
 
@@ -42,18 +42,17 @@ const Login = () => {
    <p className="text-start text-danger">{error}</p> 
      
 
-  <Button className="btn w-100" variant="success" type="submit">
-    Login
-  </Button>
+                 <Button className=" btn btn-info fw-bold w-100"  type="submit">
+                         Login
+               </Button>
 
                <div className="text-center mt-2">
-                   {/* <Link onClick={() => setIsLogin(!isLogin)}  to="/register">new user ?</Link> */}
-                    <Link onClick={handleError}  to="/register">new user ?</Link> 
+             <Link onClick={handleError}  to="/register">new user ?</Link> 
                 </div>
 </Form>
              <div className="login-from mx-auto mt-3">
                 <p className="text-center">OR</p>
-                <button onClick={handleGoogleLogin} className="btn w-100 ">Continue with google</button>
+                <button onClick={handleGoogleLogin} className="btn fw-bold go-btn w-100 ">Continue with google</button>
             </div>
                 </Col>
             </Row>
