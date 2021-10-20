@@ -128,7 +128,7 @@ const useFirebase = () =>{
             const info = {...result.user, displayName: name}
             setUser(info)
             setError("");
-            console.log(result.user);
+           // console.log(result.user);
             
         })
 
@@ -149,7 +149,7 @@ const useFirebase = () =>{
 
     .catch(error => {
         setError(error.message)
-        console.log(error);
+      //  console.log(error);
         setError("Your Email & Password Is Worng");
     })
 
