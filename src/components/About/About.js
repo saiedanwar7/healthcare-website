@@ -10,7 +10,6 @@ const About = () => {
      
             <Row>     
                 <Col className="col-lg-7 col-md-12 col-12 d-flex">
-                {/* <Col className="col-lg-7 col-md-7 col-12 d-flex"> */}
                     <img className="about-img" src={about} alt="" />
                    
                 </Col>

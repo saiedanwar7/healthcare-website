@@ -1,9 +1,6 @@
-/* .section-1{
-    background-color: rgb(191, 237, 255);
-} */
+
 
 .section-1{
-    /* background-color:linear-gradient(rgba(98, 171, 255, 0.493)) ; */
     background-image: url("https://i.ibb.co/P4RR8wQ/left-box-bg.jpg");
     height: 260px;
     background-repeat: no-repeat;
@@ -15,8 +12,6 @@
    
 
 }
-
-
 
 
 .section-2{

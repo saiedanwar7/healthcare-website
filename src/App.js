@@ -1,13 +1,12 @@
 import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter as Router, Switch, Route, Link} from"react-router-dom";
+import { BrowserRouter as Router, Switch, Route} from"react-router-dom";
 import Home from './components/Home/Home';
 import Register from './components/Register/Register';
 import NotFound  from './components/NotFound/NotFound';
 import Menubar from './components/Menubar/Menubar';
 import Login from './components/Login/Login';
 import AuthProvider from './context/AuthProvider';
-import Services from './components/Services/Services';
 import ServiceDetails from './components/ServiceDetails/ServiceDetails';
 import Footer from './components/Footer/Footer';
 import Doctors from './components/Doctors/Doctors';
@@ -35,16 +34,6 @@ function App() {
           <Route exact path="/home">
             <Home></Home>
           </Route>
-{/*           
-          <Route path="/services">
-            <Services></Services>
-          </Route> */}
-
-
-          {/* <Route path="/service">
-                <Service></Service>
-          </Route> */}
-
 
           <PrivateRoute path="/service/:serviceId">
             <ServiceDetails></ServiceDetails>
