@@ -5,10 +5,10 @@ import './ServiceDetails.css'
 
 const ServiceDetails = () => {
      const{serviceId} = useParams();
-     console.log(serviceId);
+     //console.log(serviceId);
 
     const [services, setServices] = useState([])
-    console.log(services)
+   // console.log(services)
 
     useEffect(() =>{
         fetch('/services.json')
@@ -19,7 +19,7 @@ const ServiceDetails = () => {
 
 const singleService = services?.find(service =>service.id === serviceId)
 
-console.log(singleService);
+ // console.log(singleService);
 
     return (
         <div>

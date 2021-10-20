@@ -9,7 +9,7 @@ const Doctors = () => {
         fetch("./doctors.json")
            .then(res => res.json())
            .then(data => setDoctors(data))
-           console.log(doctors);
+         //  console.log(doctors);
     }, [])
     return (
         <div>
