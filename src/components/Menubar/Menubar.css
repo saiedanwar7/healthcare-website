@@ -14,9 +14,9 @@
     font-size: 25px !important;
 }
 
-.log-btn{
+.log-and-out-btn{
     border: 1px solid rgb(17, 15, 15);
 }
-.log-btn:hover{
+.log-and-out-btn:hover{
     color:white !important;
 }
